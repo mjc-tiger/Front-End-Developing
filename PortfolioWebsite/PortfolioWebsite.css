@@ -1,3 +1,10 @@
+.portfolio img {
+    transition: transform 0.3s;
+}
+
+.portfolio img:hover { 
+    transform: scale(1.08);
+}
 /*HOME*/
 .me{
   padding: 75px 20px;
