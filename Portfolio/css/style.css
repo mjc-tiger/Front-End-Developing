@@ -1,0 +1,178 @@
+.portfolio img {
+    transition: transform 0.3s;
+}
+
+.portfolio img:hover { 
+    transform: scale(1.08);
+}
+/*HOME*/
+.me{
+  padding: 75px 20px;
+  background-color: #AAAAAA;
+  margin-bottom: 1px;
+  font-size: 1.15em;
+}
+.me img {
+  max-height: 250px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+  padding: 75px 50px 1px;
+  margin-bottom: 1px;
+  background-color: white;
+}
+.portfolio img{
+  max-height: 250px;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+.portfolio .row{
+  margin: 75px 20px;
+}
+.portfolio .col-sm-6 {
+  padding: 0;
+}
+.portfolio h3{
+  color: #333;
+}
+
+/*CONTACT-ME*/
+.contact-me{
+  padding: 75px 50px 30px;
+  margin-bottom: 1px;
+  background-color: white;
+}
+.contact-me .row{
+  margin: 75px 20px;
+}
+.contact-me .col-sm-6 {
+  padding: 0;
+}
+.form-item{
+  position: relative;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+label{
+  display: block;
+}
+input{
+  background: #dcdcdc;
+  width: 400px;
+}
+.social-media{
+  padding: 45px 55px;
+  background: url("http://res.cloudinary.com/dck40m3wf/image/upload/v1455475485/Portfolio/tweed.png");
+}
+.about-this-page{
+  text-align: right;
+  font-size: 25px;
+  color: silver;
+}
+
+
+/* BODY OF WEBSITE*/
+hr {
+  background-color: white;
+  border-width: 5px;
+}
+.image{
+  width:100px;
+}
+body {
+  background-color: grey;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url("http://res.cloudinary.com/dck40m3wf/image/upload/v1455475485/Portfolio/tweed.png");
+}
+li {
+  float:left;
+  border-right: 1px solid #bbb;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #336699;
+}
+
+a {
+  color:inherit;
+}
+a:hover {
+  color:silver;
+}
+
+h2{
+  color: white;
+}
+h4{
+  color: white;
+}
+/*SEND BUTTON*/
+.send {
+  width: 150px;
+  padding:10px;
+  margin: -10px;
+  border-radius: 4px;
+  border:none;
+  cursor:pointer;
+  
+  font-size: 25px;
+  text-align:center;
+  color: #FFFFFF;
+  background-color:#336699;
+  border-radius: 4px;
+} 
+
+.send span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.send span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.send:hover span {
+  padding-right: 25px;
+}
+
+.send:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.contact {
+  color: grey;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.socialaccounts a{
+  padding-left: 0px;
+  margin-left: 10px;
+  font-family: forte;
+  font-size: 18px;
+} 
