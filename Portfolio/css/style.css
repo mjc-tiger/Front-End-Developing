@@ -72,7 +72,12 @@ input{
   font-size: 25px;
   color: silver;
 }
-
+/* YouTube*/
+.youtube {
+  padding: 35px 50px 30px;
+  margin-bottom: 1px;
+  background-color: silver;
+}
 
 /* BODY OF WEBSITE*/
 hr {
@@ -171,8 +176,13 @@ h4{
 }
 
 .socialaccounts a{
-  padding-left: 20px;
-  margin-left: 20px;
+  align: center;
+  padding-left: 15px;
+  margin-left: 15px;
   font-family: forte;
   font-size: 18px;
-} 
+}
+
+.youtube p{
+  margin-top: 70px;
+}
