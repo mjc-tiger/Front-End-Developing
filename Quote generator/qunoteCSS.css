@@ -1,0 +1,54 @@
+body{
+  background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-28.jpg");
+}
+.my-jambo{
+  background-color: #E8E8E8;
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 750px;
+  padding: 40px 50px;
+  display: table;
+}
+.qunote{
+  text-align: justify;
+}
+#qunote{
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+#fa{
+  font-size: 35px;
+}
+h3{
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  margin-right: 25px;
+}
+#b{
+  margin-top: 50px;
+  float: right;
+  color: white;
+  background-color: #3D3D3D;
+  transition: transform 0.3s;
+}
+#b:hover{
+  background-color: #6B6969;
+  transform: scale(1.08);
+}
+#twitter{
+  margin-top: 50px;
+  float: left;
+  background-color: #4099FF;
+  color: white;
+  transition: transform 0.3s;
+}
+#twitter:hover{
+  transform: scale(1.08);
+}
+footer{
+  text-align: right;
+  color: white;
+  margin: 15px auto 30px auto;
+  padding-right: 215px;
+}
