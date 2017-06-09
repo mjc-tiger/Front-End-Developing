@@ -1,0 +1,259 @@
+body {
+  margin: 0px 0px 0px 0px;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*STRIP & NAVIGATION BAR*/
+.strip {
+  height: 10px;
+  width: 100%;
+  background-color: #2de8df;
+}
+.ul-navbar {
+  padding-top: 16px;
+  text-align: center;
+  font-size: 18px;
+}
+.ul-navbar ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.ul-navbar img {
+  height: 120px;
+  width: 120px;
+  }
+.ul-navbar li {
+  float: left;
+  padding: 20px 15px;
+  /*background: red;*/
+}
+.ul-navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 0px;
+  text-decoration: none;
+}
+.ul-navbar li a:hover {
+  border-bottom: 1px solid #2de8df;
+  color: #ebebeb;
+}
+.li-btn {
+  margin: 30px 90px 30px 90px;
+}
+.silver-strip {
+  height: 1px;
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+
+/*THIS IS JUST A SAMPLE PAGE*/
+.my-margin {
+  margin: 0 120px 0 120px;
+}
+.sample-page {
+  text-align: center;
+  margin-bottom: 75px;
+}
+#main-txt {
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.70em;
+  padding-bottom: 1em;
+  font-size: 82px;
+}
+#push-btn {
+  display: inline-block;
+  height: 65px;
+  width: 300px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #21b3ac;
+  background-color: #2de8df;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #21b3ac;
+}
+#push-btn:active {
+  background-color: #2de8df;
+  box-shadow: 0px 4px 4px #21b3ac inset;
+  transform: translateY(2px);
+}
+
+
+/*MY COLUMNS*/
+.columns {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.columns h1 {
+  font-family: 'Bree Serif', serif;
+  color: #ee8a55;
+  font-size: 38px;
+}
+.box {
+  display: table-cell;
+}
+.sidebar {
+  width: 33%;
+}
+.news {
+  padding: 1px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.news img {
+  padding-right: 20px;
+}
+.r-more {
+  margin-bottom: 33px;
+  text-align: right;
+}
+.r-more a {
+  color: #d1d1d1;
+  padding-right: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.r-more a:hover {
+  color: #2de8df;
+}
+
+
+/*CONTACT*/
+#cont {
+  font-family: 'Bree Serif', serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 60px;
+  color: #2de8df;
+}
+.sidebar2 {
+  text-align: center;
+  float:left;
+  width: 50%;
+}
+#forms {
+  margin-bottom: 20px;
+}
+input {
+  width: 520px;
+  height: 50px;
+  padding-right: 10px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 1px #d1d1d1 inset;
+}
+textarea {
+  width: 520px;
+  height: 170px;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  box-shadow: 0px 1px 1px #d1d1d1 inset;
+}
+.contact ::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #d1d1d1;
+}
+#snd-msg-btn {
+  display: inline-block;
+  margin-bottom: 56px;
+  height: 47px;
+  width: 460px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #21b3ac;
+  background-color: #2de8df;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #21b3ac;
+}
+#snd-msg-btn:active {
+  background-color: #2de8df;
+  box-shadow: 0px 4px 4px #21b3ac inset;
+  transform: translateY(2px);
+}
+
+
+/*FOOTER*/
+.footer-btn {
+  text-align: center;
+}
+#footer-btn {
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 -3px grey;
+}
+.my-footer {
+  width: 100%;
+  height: 160px;
+  color: white;
+  background-color: black;
+}
+table.ftr-table {
+  width: 100%;
+  padding-top: 40px;
+}
+table.ftr-table th {
+  border: 0px solid green;
+  border-collapse: collapse;
+  padding: 0px;
+  font-size: 16px;
+}
+.ftr-btn {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border-color: white;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  font-size: 25px;
+}
+#twitter-btn {
+  margin-right: 20px;
+}
+#fb-btn {
+  margin-left: 20px;
+}
